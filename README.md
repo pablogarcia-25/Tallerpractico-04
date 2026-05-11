@@ -1,5 +1,6 @@
 ## Manual de Despliegue
-Manual de Despliegue y Recuperación de EmergenciaVersión: 1.0
+Manual de Despliegue 
+Versión: 1.0
 Fecha: 11 de Mayo de 2026
 
 Objetivo
