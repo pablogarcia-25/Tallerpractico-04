@@ -1,4 +1,4 @@
-## Fase 1 
+## Fase 1 Eleccion del TCO
 **Justifica la elección basándote en el perfil de la empresa (25 empleados, presupuesto ajustado, necesidad de personalización en el etiquetado).**
 
 Nuestra elección ha sido Odoo Enterprise ya que tiene un presupuesto ajustado ya que Odoo puede escalar el volumen de 25 empleados sin ningún problema..
@@ -30,15 +30,8 @@ Fecha: 11 de Mayo de 2026
 
 Restablecer la operatividad de la aplicación y la base de datos PostgreSQL tras una caída del sistema 
 
-
-# Requisitos
-PreviosDocker y Docker Compose instalados.
-
-Archivo docker-compose.yml en el directorio de despliegue.
-
-docker-compose ps
-
-## RBAC(Diseño de seguridad)
+## Fase 2 Diseño de seguridad 
+## RBAC
     Este es el diseño óptimo de permisos para los roles , diseñada especificamente para evitar que usuarios 
     con roles especificos accedan a información sensible.
     
@@ -47,6 +40,12 @@ docker-compose ps
     Contable: Permisos Edicion,Borrado -->  Acceso a la información de facturación de los clientes .
     Operario Almacen: Permisos Edicion,Borrado --> Acceso a historiales de servicio de los equipos .
 
+## Fase 3 Documentacion de Explotación 
+# Requisitos
+PreviosDocker y Docker Compose instalados.
 
+Archivo docker-compose.yml en el directorio de despliegue.
+
+docker-compose ps
 
 
