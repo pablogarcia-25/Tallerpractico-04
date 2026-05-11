@@ -9,7 +9,7 @@ Restablecer la operatividad de la aplicación y la base de datos PostgreSQL tras
 PreviosDocker y Docker Compose instalados.
 Archivo docker-compose.yml en el directorio de despliegue.
 
-#RBAC 
+##RBAC 
     Administrador: Todos los permisos.
     Comercial:Permisos Lectura --> Acceso a los contratos de alquiler, Acceso a la información de facturación de los clientes .
     Contable: Permisos Edicion,Borrado -->  Acceso a la información de facturación de los clientes .
