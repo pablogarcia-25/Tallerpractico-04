@@ -1,4 +1,10 @@
-## Taller Practico 4
-¿Es coherente el TCO con la realidad de una PYME?
-¿La matriz RBAC evita que el comercial vea los costes de producción?
-¿El comando de backup es sintácticamente correcto?
+## Manual de Despliegue
+Manual de Despliegue y Recuperación de EmergenciaVersión: 1.0
+Fecha: 11 de Mayo de 2026
+
+Objetivo
+Restablecer la operatividad de la aplicación y la base de datos PostgreSQL tras una caída del sistema 
+# Requisitos
+PreviosDocker y Docker Compose instalados.
+Archivo docker-compose.yml en el directorio de despliegue.
+
