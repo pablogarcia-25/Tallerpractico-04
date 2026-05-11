@@ -1,0 +1,29 @@
+version: "3.8"
+
+services:
+  servidor-ssh:
+    image: linuxserver/openssh-server:latest
+    container_name: aceite_ssh_servidor
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Europe/Madrid
+      - USER_NAME=admin
+      - USER_PASSWORD=admin123
+      - PASSWORD_ACCESS=true
+    ports:
+      - "2222:2222"   # Mapeamos el puerto 2222 local al 2222 del contenedor
+    restart: unless-stopped
+
+  servidor-rdp:
+    image: linuxserver/webtop:ubuntu-xfce
+    container_name: lab_rdp_servidor
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Europe/Madrid
+    ports:
+      - "3389:3389"   
+      - "3000:3000"   
+    shm_size: "1gb"   
+    restart: unless-stopped
