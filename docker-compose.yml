@@ -12,12 +12,12 @@ services:
       - USER_PASSWORD=admin123
       - PASSWORD_ACCESS=true
     ports:
-      - "2222:2222"   # Mapeamos el puerto 2222 local al 2222 del contenedor
+      - "2222:2222"   
     restart: unless-stopped
 
   servidor-rdp:
     image: linuxserver/webtop:ubuntu-xfce
-    container_name: lab_rdp_servidor
+    container_name: aceites_shh_servidor
     environment:
       - PUID=1000
       - PGID=1000
