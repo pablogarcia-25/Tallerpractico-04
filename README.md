@@ -14,7 +14,8 @@ Archivo docker-compose.yml en el directorio de despliegue.
 
 docker-compose ps
 
-## RBAC 
+## RBAC(Diseño de seguridad)
+    Este es el diseño optimo de permisos para los roles
     Administrador: Todos los permisos.
     Comercial:Permisos Lectura --> Acceso a los contratos de alquiler, Acceso a la información de facturación de los clientes .
     Contable: Permisos Edicion,Borrado -->  Acceso a la información de facturación de los clientes .
