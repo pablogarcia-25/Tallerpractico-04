@@ -30,9 +30,7 @@ Fecha: 11 de Mayo de 2026
 
 Restablecer la operatividad de la aplicación y la base de datos PostgreSQL tras una caída del sistema 
 
-## ¿Es coherente el TCO con la realidad de una PYME?
 
-## ¿El comando de backup es sintácticamente correcto?
 # Requisitos
 PreviosDocker y Docker Compose instalados.
 
@@ -40,7 +38,6 @@ Archivo docker-compose.yml en el directorio de despliegue.
 
 docker-compose ps
 
-## ¿La matriz RBAC evita que el comercial vea los costes de producción?
 ## RBAC(Diseño de seguridad)
     Este es el diseño óptimo de permisos para los roles , diseñada especificamente para evitar que usuarios 
     con roles especificos accedan a información sensible.
