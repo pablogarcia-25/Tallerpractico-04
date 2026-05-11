@@ -18,7 +18,7 @@ docker-compose ps
     Este es el diseño óptimo de permisos para los roles , diseñada especificamente para evitar que usuarios 
     con roles especificos accedan a información sensible.
     
-    Administrador: Todos los permisos.
+    **Administrador**: Todos los permisos.
     Comercial:Permisos Lectura --> Acceso a los contratos de alquiler, Acceso a la información de facturación de los clientes .
     Contable: Permisos Edicion,Borrado -->  Acceso a la información de facturación de los clientes .
     Operario Almacen: Permisos Edicion,Borrado --> Acceso a historiales de servicio de los equipos .
