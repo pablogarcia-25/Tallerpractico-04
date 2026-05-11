@@ -15,7 +15,8 @@ Archivo docker-compose.yml en el directorio de despliegue.
 docker-compose ps
 
 ## RBAC(Diseño de seguridad)
-    Este es el diseño óptimo de permisos para los roles , diseñada especificamente para evitar que usuarios con roles especificos accedan a información sensible.
+    Este es el diseño óptimo de permisos para los roles , diseñada especificamente para evitar que usuarios 
+    con roles especificos accedan a información sensible.
     
     Administrador: Todos los permisos.
     Comercial:Permisos Lectura --> Acceso a los contratos de alquiler, Acceso a la información de facturación de los clientes .
